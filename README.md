@@ -1,5 +1,7 @@
 # get xkcd
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 A simple Django-based web application that fetches XKCD comics and displays them. Users can view a random comic, or navigate to the previous or next comic.
 
 ## How it Works
