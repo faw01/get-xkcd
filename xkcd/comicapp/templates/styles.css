@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'xkcd';
+    src: url('fonts/xkcd-Regular.woff2') format('woff2'),
+        url('fonts/xkcd-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #161618;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: 'xkcd', sans-serif;
+ }
+ 
+#comic-container {
+   max-width: 80%;
+   margin-bottom: 2rem;
+}
+
+#comic-container img {
+   max-width: 100%;
+   height: auto;
+}
+
+button {
+   background-color: #E4E5F1;
+   color: #000;
+   border: none;
+   padding: 1rem 2rem;
+   margin: 0 16rem;
+   cursor: pointer;
+   font-family: 'xkcd', sans-serif;
+   border-radius: 35px; 
+   width: 200px; 
+   text-align: center; 
+}
